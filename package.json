@@ -1,0 +1,19 @@
+{
+  "name": "web_cozy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhonv4sq/web_cozy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jhonv4sq/web_cozy/issues"
+  },
+  "homepage": "https://github.com/jhonv4sq/web_cozy#readme"
+}
