@@ -5,7 +5,6 @@ body{
     background-color: aqua;
 }
 .container {
-    width: 100%;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
@@ -17,7 +16,7 @@ body{
 }
 
 .nav-menu{
-    background-color: #F9F6EF;
+    background: #F9F6EF;
     text-transform: uppercase;
 
     padding-top: 18px;
@@ -28,24 +27,27 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    /* flex-wrap: wrap; */
 }
 
-.nav-menu .brand{
+.nav-menu div .brand{
+    display: block;
     margin: 0px;
     font-size: 1.25rem;
 }
-.nav-menu .nav-list{ 
+.nav-menu div .nav-list{ 
     margin: 0px;
     display: flex;
     list-style: none;
+    flex-wrap: wrap;
 }
-.nav-menu .nav-list li{
+
+.nav-menu div .nav-list li{
     display: block;
-    
     text-decoration: none;
     /* border: 1px solid rgba(0, 0, 0, 0.5); */
 }
-.nav-menu .nav-list li a{
+.nav-menu div .nav-list li a{
     display: block;
     text-align: center;
     
@@ -54,11 +56,21 @@ body{
     padding-top: 5px;
     padding-bottom: 5px;
 
+    white-space: nowrap;
     text-decoration: none;
     color: rgba(0, 0, 0, 0.5);
 }
-.nav-menu .nav-list li a:hover{
+.nav-menu div .nav-list li a:hover{
     color: rgba(0, 0, 0, 0.7);
+}
+
+.nav-list::-webkit-scrollbar{
+    background-color: rgba(0, 0, 0, 0);
+    height: 7px;
+}
+.nav-list::-webkit-scrollbar-thumb{
+    background-color: rgba(159, 156, 156, 0.5);
+    border-radius: 25px;
 }
 
 @media (min-width: 576px) {
@@ -66,6 +78,7 @@ body{
         max-width: 540px;
     }
 }
+
 
 @media (min-width: 768px) {
     .container {
