@@ -1,0 +1,86 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: aqua;
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.lato{
+    font-family: 'Lato', sans-serif;
+}
+
+.nav-menu{
+    background-color: #F9F6EF;
+    text-transform: uppercase;
+
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+.nav-menu div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-menu .brand{
+    margin: 0px;
+    font-size: 1.25rem;
+}
+.nav-menu .nav-list{ 
+    margin: 0px;
+    display: flex;
+    list-style: none;
+}
+.nav-menu .nav-list li{
+    display: block;
+    
+    text-decoration: none;
+    /* border: 1px solid rgba(0, 0, 0, 0.5); */
+}
+.nav-menu .nav-list li a{
+    display: block;
+    text-align: center;
+    
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.5);
+}
+.nav-menu .nav-list li a:hover{
+    color: rgba(0, 0, 0, 0.7);
+}
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
