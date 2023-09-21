@@ -31,8 +31,11 @@
 .nav-menu div .nav-list li{
     display: block;
     text-decoration: none;
-    /* border: 1px solid rgba(0, 0, 0, 0.5); */
 }
+.nav-menu div .nav-list.block li{
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
 .nav-menu div .nav-list li a{
     display: block;
     text-align: center;
@@ -50,14 +53,14 @@
     color: rgba(0, 0, 0, 0.7);
 }
 
-.nav-list::-webkit-scrollbar{
+/* .nav-list::-webkit-scrollbar{
     background-color: rgba(0, 0, 0, 0);
     height: 7px;
 }
 .nav-list::-webkit-scrollbar-thumb{
     background-color: rgba(159, 156, 156, 0.5);
     border-radius: 25px;
-}
+} */
 
 @media (max-width: 820px) {
     .nav-menu{
