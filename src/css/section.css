@@ -1,0 +1,16 @@
+.figure{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border-top-left-radius: 230px;
+    border-top-right-radius: 230px;
+}
+
+.figure.primary{
+    
+}
+
+.figure.blue{
+    background-color: rgba(212, 224, 224, 0.9);
+}

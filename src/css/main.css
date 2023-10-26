@@ -4,6 +4,32 @@ body{
     box-sizing: border-box;
     background-color: aqua;
 }
+
+.lato{
+    font-family: 'Lato', sans-serif;
+}
+
+.background-img{
+    width: 100%;
+	height: 100%;
+	position: absolute;
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: absolute;
+    background-position: center;
+}
+
+.button{
+    border: #343a40 1px solid;
+    border-radius:0px;
+    background-color:rgba(255, 255, 255, 0);
+}
+
+.button:hover{
+    background-color: #252925;
+    color: white;
+}
+
 .container {
     padding-right: 15px;
     padding-left: 15px;
