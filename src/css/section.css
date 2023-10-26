@@ -7,8 +7,17 @@
     border-top-right-radius: 230px;
 }
 
-.figure.primary{
-    
+.primary{
+    text-transform: uppercase;
+    /* max-width: 33.333333%; */
+    font-family: Lato-Light;
+}
+
+.primary h1{
+    font-size: 3.7rem;
+    line-height: 1.0;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
 }
 
 .figure.blue{
