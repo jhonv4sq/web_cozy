@@ -1,5 +1,7 @@
 .section-1{
-    height: 25rem;
+    height: 28rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 .figure{
@@ -63,10 +65,11 @@
     border: 1px solid #212529;
 
     text-align: center;
+    margin-top: 4%;
 }
 .circle h2{
     font-weight: normal;
-    padding-top: 5px;
+    padding-top: 1px;
     word-spacing: 0.5em;
 }
 
