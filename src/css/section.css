@@ -1,7 +1,12 @@
+.section-1{
+    height: 25rem;
+}
+
 .figure{
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 
     border-top-left-radius: 230px;
     border-top-right-radius: 230px;
@@ -13,13 +18,11 @@
     width: 33%;
     font-family: Lato-Light;
 
-    text-align: center;
     padding-top: 5rem;
     padding-bottom: 3rem;
-    padding-left: 2.5rem;;
-    padding-right: 2.5rem;;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
 }
-
 .primary h1{
     font-size: 3.7rem;
     line-height: 1.0;
@@ -27,7 +30,6 @@
     font-weight: 500;
     margin-bottom: 1.5rem;
 }
-
 .primary span{
     margin-bottom: 2rem;
     line-height: 1.5;
@@ -35,6 +37,90 @@
     font-weight: normal;
 }
 
-.figure.blue{
+.secondary{
+    color: #212529;
+    font-family: 'Lato', sans-serif;
+    width: 10rem;
+    padding-top: 3rem;
+    padding-bottom: 2.5rem;
+    padding-left: 2.6rem;
+    padding-right: 2.6rem;
+}
+.secondary h3{
+    font-size: 1.3rem;
+    text-transform: uppercase;
+}
+.secondary span{
+    font-size: 1rem;
+}
+
+.circle{
+    width: 250px;
+    height: 100px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    border: 1px solid #212529;
+
+    text-align: center;
+}
+.circle h2{
+    font-weight: normal;
+    padding-top: 5px;
+    word-spacing: 0.5em;
+}
+
+.pink{
+    background-color: rgba(242, 225, 211, 0.9);
+}
+.blue{
     background-color: rgba(212, 224, 224, 0.9);
+}
+.brown{
+    background-color: rgba(175, 85, 50, 0.9);
+}
+.green{
+    background-color: rgba(112, 107, 78, 0.9);
+}
+.white{
+    background-color: rgb(249, 246, 239);
+}
+
+@media (max-width: 820px) {
+    .primary{
+        width: 50%;
+        padding-top: 3rem;
+        padding-bottom: 2.5rem;
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+    }
+
+    .primary h1{
+        font-size: 3.4rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .primary{
+        width: 15rem;
+
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        padding-left: 2.2rem;
+        padding-right: 2.2rem;
+    }
+    
+    .primary h1{
+        font-size: 2.3rem;
+        line-height: 1.0;
+        margin-bottom: 0.5rem;
+        font-weight: 500;
+        margin-bottom: 1.5rem;
+    }
+    
+    .primary span{
+        font-size: 0.6rem;
+        margin-bottom: 2rem;
+        line-height: 1.5;
+    }
 }
