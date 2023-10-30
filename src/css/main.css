@@ -24,6 +24,7 @@ body{
     align-items: center;
     height: 100%;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .center-column{
