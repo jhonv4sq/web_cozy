@@ -1,0 +1,45 @@
+.form-container{
+    gap: 1.5em;
+    --color: #5757577e;
+    position: relative;
+}
+.form-container div{
+    max-width: 50%;
+}
+.form-container div label{
+    font-size: 1.2rem;
+    font-style: italic;
+    font-family: 'Cormorant Upright', serif;
+}
+.form-container div input{
+    border: none;
+    padding: .6em .3em;
+    outline: none;
+    background-color: #00000000;
+    border-bottom: 1px solid var(--color);
+
+    font-style: italic;
+    font-family: 'Cormorant Upright', serif;
+}
+.form-container div textarea{
+    border: none;
+    padding: .6em .3em;
+    outline: none;
+    background-color: #00000000;
+    border-bottom: 1px solid var(--color);
+}
+
+.form-button{
+    position: absolute;
+    bottom: -23%;
+}
+.form-button button{
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+@media (max-width: 576px) {
+    .form-container div{
+        max-width: 100%;
+    }
+}

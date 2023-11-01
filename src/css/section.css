@@ -3,6 +3,12 @@
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
+.section-2{}
+
+.section-form{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
 
 .figure{
     display: flex;
@@ -12,6 +18,44 @@
 
     border-top-left-radius: 230px;
     border-top-right-radius: 230px;
+}
+.figure-top{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: -49%;
+}
+
+.figure-top.relative{
+    position: relative !important;
+}
+
+.figure-top div{
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    word-spacing: 0.5em;
+
+    border-top-left-radius: 230px;
+    border-top-right-radius: 230px;
+
+    padding-top: 2.6rem;
+    padding-bottom: 1rem;
+
+    padding-left: 2.2rem;
+    padding-right: 2.2rem;    
+}
+.figure-top div span{
+    font-weight: normal;
+    font-size: 0.8rem;
+}
+.figure-top div h3{
+    font-family: Lato-Light;
+    font-weight: normal;
+    margin: 0px;
+    font-size: 1.4rem;
+    margin-top: 1rem;
 }
 
 .primary{
@@ -71,6 +115,7 @@
     font-weight: normal;
     padding-top: 1px;
     word-spacing: 0.5em;
+    font-family: 'Cormorant Upright', serif;
 }
 
 .pink{
@@ -124,6 +169,24 @@
 }
 
 @media (max-width: 576px) {
+    .circle{
+        width: 210px;
+        height: 60px;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+        border: 1px solid #212529;
+    
+        text-align: center;
+        margin-top: 4%;
+    }
+    .circle h2{
+        font-size: 1.3rem;
+        font-weight: normal;
+        padding-top: 0px;
+        word-spacing: 0.5em;
+    }
+    
     .primary{
         width: 15rem;
 
@@ -145,5 +208,32 @@
         font-size: 0.6rem;
         margin-bottom: 2rem;
         line-height: 1.5;
+    }
+    .secondary{
+        width: 4.7rem;
+        padding-top: 1.5rem;
+        padding-bottom: 1.2rem;
+        padding-left: 0.3rem;
+        padding-right: 0.3rem;
+    }
+    .secondary h3{
+        font-size: 0.6rem;
+    }
+    .secondary span{
+        font-size: 0.5rem;
+    }
+}
+
+@media (max-width: 360px) {
+    .secondary{
+        width: 4.7rem;
+        padding-top: 1.4rem;
+        padding-bottom: 1.1rem;
+        padding-left: 0.2rem;
+        padding-right: 0.2rem;
+    }
+
+    .secondary span{
+        font-size: 0.5rem;
     }
 }
