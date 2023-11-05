@@ -51,7 +51,7 @@
     font-size: 0.8rem;
 }
 .figure-top div h3{
-    font-family: 'Lato-Light';
+    font-family: 'Cormorant', serif;
     font-weight: normal;
     margin: 0px;
     font-size: 1.4rem;
@@ -62,7 +62,7 @@
     color: #212529;
     text-transform: uppercase;
     width: 33%;
-    font-family: 'Lato-Light';
+    font-family: 'Cormorant', serif;
 
     padding-top: 5rem;
     padding-bottom: 3rem;
