@@ -1,9 +1,7 @@
 .section-1{
-    height: 28rem;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
 }
-.section-2{}
 
 .section-form{
     padding-top: 4rem;
@@ -99,21 +97,29 @@
 .secondary h3{
     font-size: 1.3rem;
     text-transform: uppercase;
+    margin-bottom: 0.6em;
 }
 .secondary span{
+    font-family: 'Cormorant Upright', serif;
     font-size: 1rem;
+    word-spacing: 0.1em;
+    margin-top: 0.5em;
+}
+.secondary hr{
+    border: 1px solid rgb(78, 78, 78);
+    width: 100%;
 }
 
 .circle{
     width: 250px;
-    height: 100px;
+
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
     border: 1px solid #212529;
 
     text-align: center;
-    margin-top: 4%;
+    margin-bottom: 4%;
 }
 .circle h2{
     font-weight: normal;
