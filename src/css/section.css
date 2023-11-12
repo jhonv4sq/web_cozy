@@ -100,7 +100,7 @@
     margin-bottom: 0.6em;
 }
 .secondary span{
-    font-family: 'Cormorant Upright', serif;
+    font-family: 'Cormorant Garamond', serif;
     font-size: 1rem;
     word-spacing: 0.1em;
     margin-top: 0.5em;
@@ -119,13 +119,29 @@
     border: 1px solid #212529;
 
     text-align: center;
-    margin-bottom: 4%;
+    margin-bottom: 5rem;
 }
 .circle h2{
     font-weight: normal;
     padding-top: 1px;
     word-spacing: 0.5em;
     font-family: 'Cormorant Upright', serif;
+}
+
+.paragraph{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.4rem;
+    word-spacing: 0.5em;
+    width: 34rem;
+}
+
+.container-img-1{
+    width: 24rem;
+    height: 35rem;
+}
+.container-img-1 img{
+    width: 100%;
+    height: 100%;
 }
 
 .pink{
@@ -146,9 +162,8 @@
 
 @media (max-width: 820px) {
     .section-1{
-        height: 18rem;
-        padding-top: 5rem;
-        padding-bottom: 5rem;
+        padding-top: 9rem;
+        padding-bottom: 9rem;
     }
     .primary{
         width: 50%;
@@ -175,6 +190,16 @@
     }
     .secondary span{
         font-size: 0.7rem;
+    }
+
+    .container-img-1{
+        width: 15rem;
+        height: 25rem;
+    }
+    .paragraph{
+        font-size: 1.2rem;
+        word-spacing: 0.1em;
+        width: 26rem;
     }
 }
 
@@ -234,6 +259,15 @@
     .secondary span{
         font-size: 0.5rem;
         margin-top: 0.1em;
+    }
+    .container-img-1{
+        width: 8rem;
+        height: 15rem;
+    }
+    .paragraph{
+        font-size: 0.7rem;
+        word-spacing: 0.1rem;
+        width: 13rem;
     }
 }
 
