@@ -212,16 +212,19 @@
 }
 
 @media (max-width: 576px) {
+    .section-1{
+        padding-top: 2rem;
+        padding-bottom: 5rem;
+    }
+    .section-2{
+        padding-top: 4rem;
+        padding-bottom: 2rem;
+    }
     .circle{
         width: 210px;
-        height: 60px;
-        -moz-border-radius: 50%;
-        -webkit-border-radius: 50%;
-        border-radius: 50%;
-        border: 1px solid #212529;
+        height: 60px;;
     
-        text-align: center;
-        margin-top: 4%;
+        margin-bottom: 5rem;
     }
     .circle h2{
         font-size: 1.3rem;
@@ -253,20 +256,21 @@
         line-height: 1.5;
     }
     .secondary{
-        width: 4.7rem;
-        padding-top: 1.5rem;
-        padding-bottom: 1.2rem;
+        width: 15rem;
+        padding-top: 3rem;
+        padding-bottom: 2rem;
         padding-left: 0.3rem;
         padding-right: 0.3rem;
+        margin-bottom: 2rem;
     }
     .secondary h3{
-        font-size: 0.6rem;
-        margin-bottom: 0.2em;
+        font-size: 1.2rem;
+        margin-bottom: 1em;
 
     }
     .secondary span{
-        font-size: 0.5rem;
-        margin-top: 0.1em;
+        max-width: 70%;
+        font-size: 1.2rem;
     }
     .container-img-1{
         width: 8rem;
@@ -280,15 +284,15 @@
 }
 
 @media (max-width: 360px) {
-    .secondary{
+    /* .secondary{
         width: 4.7rem;
         padding-top: 1.4rem;
         padding-bottom: 1.1rem;
         padding-left: 0.2rem;
         padding-right: 0.2rem;
-    }
+    } */
 
-    .secondary span{
+    /* .secondary span{
         font-size: 0.5rem;
-    }
+    } */
 }
