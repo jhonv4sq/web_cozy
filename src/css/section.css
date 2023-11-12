@@ -106,8 +106,8 @@
     margin-top: 0.5em;
 }
 .secondary hr{
-    border: 1px solid rgb(78, 78, 78);
-    width: 100%;
+    border: 0.01rem solid rgb(78, 78, 78);
+    width: 70%;
 }
 
 .circle{
@@ -174,7 +174,7 @@
         font-size: 1rem;
     }
     .secondary span{
-        font-size: 0.6rem;
+        font-size: 0.7rem;
     }
 }
 
@@ -228,9 +228,12 @@
     }
     .secondary h3{
         font-size: 0.6rem;
+        margin-bottom: 0.2em;
+
     }
     .secondary span{
         font-size: 0.5rem;
+        margin-top: 0.1em;
     }
 }
 
