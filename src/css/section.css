@@ -1,4 +1,12 @@
 .section-1{
+    padding-top: 4rem;
+    padding-bottom: 10rem;
+}
+.section-2{
+    padding-top: 8rem;
+    padding-bottom: 4rem;
+}
+.section-3{
     padding-top: 10rem;
     padding-bottom: 10rem;
 }
@@ -161,7 +169,7 @@
 }
 
 @media (max-width: 820px) {
-    .section-1{
+    .section-3{
         padding-top: 9rem;
         padding-bottom: 9rem;
     }
