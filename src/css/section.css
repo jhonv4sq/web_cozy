@@ -276,13 +276,13 @@
         font-size: 1.2rem;
     }
     .container-img-1{
-        width: 8rem;
-        height: 15rem;
+        width: 90%;
+        height: 95%;
     }
     .paragraph{
         font-size: 0.9rem;
         word-spacing: 0.1rem;
-        width: 12.3rem;
+        width: 100%;
     }
 }
 
@@ -291,12 +291,7 @@
         padding-top: 3rem;
         padding-bottom: 8rem;
     }
-    .container-img-1 {
-        width: 8rem;
-        height: 14rem;
-    }
     .paragraph{
         font-size: 0.8rem;
-        width: 12rem;
     }
 }
