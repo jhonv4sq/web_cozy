@@ -67,7 +67,7 @@
 .primary{
     color: #212529;
     text-transform: uppercase;
-    width: 33%;
+    width: 25rem;
     font-family: 'Nanum Myeongjo', serif;
 
     padding-top: 5rem;
@@ -174,7 +174,7 @@
         padding-bottom: 9rem;
     }
     .primary{
-        width: 50%;
+        width: 24rem;
         padding-top: 3rem;
         padding-bottom: 2.5rem;
         padding-left: 2.5rem;
